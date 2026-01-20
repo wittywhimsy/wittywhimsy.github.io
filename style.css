@@ -85,10 +85,11 @@ button {
   cursor: pointer;
 }/* About layout */
 .about-container img {
-  width: 220px;
-  border-radius: 12px;
-  filter: grayscale(100%);
-  opacity: 0.95;
+  width: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
 }
 
   align-items: center;
