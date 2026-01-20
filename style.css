@@ -84,9 +84,13 @@ button {
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
 }/* About layout */
-.about-container {
-  display: flex;
-  gap: 80px;
+.about-container img {
+  width: 220px;
+  border-radius: 12px;
+  filter: grayscale(100%);
+  opacity: 0.95;
+}
+
   align-items: center;
 }
 
