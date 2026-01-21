@@ -1,93 +1,78 @@
-/* Reset */
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body */
+/* BODY */
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #FFD6E8; /* cute baby pink */
+  background-color: #FFD6E8;
   color: #222;
   line-height: 1.6;
-  padding: 40px;
 }
 
-/* Navigation */
+/* NAV */
 nav {
   text-align: center;
-  margin-bottom: 80px;
+  padding: 40px 20px;
 }
 
 nav a {
   text-decoration: none;
-  color: #FF4DA6; /* soft pink links */
+  color: #FF4DA6;
   margin: 0 15px;
   font-weight: 500;
-  font-size: 16px;
 }
 
 nav a:hover {
   opacity: 0.7;
 }
 
-/* Sections */
+/* SECTIONS */
 section {
   max-width: 900px;
   margin: 0 auto 120px;
-  padding: 80px 100px;
+  padding: 0 20px;
 }
 
-/* Home Section */
+/* HOME */
 #home h1 {
   font-size: 52px;
-  font-weight: 600;
+  color: #FF4DA6;
   margin-bottom: 20px;
-  color: #FF4DA6; /* darker pink hero title */
+}
+
+.quote {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 #home a {
   text-decoration: none;
-  font-size: 16px;
-  color: #FF69B4; /* bright pink for resume button */
+  color: #FF69B4;
   border-bottom: 1px solid #FF69B4;
-  transition: 0.3s;
 }
 
-#home a:hover {
-  opacity: 0.7;
-}
-
-/* About Section */
+/* ABOUT */
 .about-container {
   display: flex;
   gap: 50px;
   align-items: center;
   margin-top: 30px;
+  flex-wrap: wrap;
 }
 
 .about-container img {
-  width: 360px;
+  width: 280px;
   height: 360px;
-  border-radius: 24px;
   object-fit: cover;
+  border-radius: 24px;
 }
 
 .about-text {
   max-width: 480px;
-}
-
-.about-text h3 {
-  margin-top: 20px;
-  font-size: 16px;
-  font-weight: 500;
-  color: #FF85C1; /* soft pink headings */
-}
-
-.about-text p {
-  font-size: 14px;
-  max-width: 400px;
 }
 
 .intro {
@@ -95,7 +80,42 @@ section {
   margin-bottom: 20px;
 }
 
-/* Contact Section */
+.about-text h3 {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #FF85C1;
+}
+
+/* WHAT I DO */
+.what-container {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.what-img {
+  width: 260px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.what-content {
+  max-width: 500px;
+}
+
+.what-content ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.what-content li {
+  margin-bottom: 12px;
+}
+
+/* CONTACT */
 input,
 textarea {
   width: 100%;
@@ -111,38 +131,7 @@ textarea {
 button {
   background: none;
   border: none;
-  border-bottom: 1px solid #FF4DA6; /* pink button border */
-  padding: 5px 0;
-  font-family: 'Poppins', sans-serif;
-  cursor: pointer;
+  border-bottom: 1px solid #FF4DA6;
   color: #FF4DA6;
-  transition: 0.3s;
-}
-
-button:hover {
-  opacity: 0.7;
-}
-.what-container {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-  margin-top: 30px;
-}
-
-.what-img {
-  width: 260px;
-  border-radius: 20px;
-}
-
-.what-content {
-  max-width: 500px;
-}
-
-
-}
-
-}
-
-}
-
+  cursor: pointer;
 }
