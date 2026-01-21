@@ -125,8 +125,10 @@ button:hover {
 .hero-logo {
   display: flex;
   align-items: center;
-  gap: 15px; /* space between logo and name */
+  gap: 10px; /* smaller gap looks cleaner */
   margin-bottom: 20px;
+}
+
 }
 
 .logo-img {
