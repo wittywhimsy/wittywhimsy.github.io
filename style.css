@@ -130,8 +130,9 @@ button:hover {
 }
 
 .logo-img {
-  width: 60px;  /* adjust size to your preference */
-  height: 60px;
+  width: 36px;   /* smaller & cute */
+  height: 36px;
   object-fit: contain;
-  border-radius: 50%; /* optional, looks cute with round edges */
+}
+
 }
