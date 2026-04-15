@@ -26,7 +26,7 @@
 
   <!-- HOME -->
   <section id="home">
-    <h1>🂽 Anjali Gurjar.</h1>
+    <h1>🂽 Anjali Gurjar</h1>
 
     <p class="quote" id="quote">
       “Curiouser and curiouser!” — Lewis Carroll, Alice in Wonderland
@@ -123,17 +123,16 @@
 
 </section>
   <!-- CONTACT -->
-  <section id="contact">
-    <h2>Leave A Message!</h2>
+ <section id="contact">
+  <h2>Leave A Message!</h2>
 
-    <form>
-      <input type="text" placeholder="Name" required>
-      <input type="email" placeholder="Email" required>
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
-
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
   <!-- QUOTE ROTATION -->
   <script>
     const quotes = [
